@@ -25,7 +25,7 @@ public class ex11 {
                 double p2 = s.nextDouble();
                 System.out.println("Informe o peso da nota3");
                 double p3 = s.nextDouble();
-                media = n1*p1 + n2*p2 + n3*p3;
+                media = (n1*p1 + n2*p2 + n3*p3)/3;
         }
         else{
             System.out.println("Opção inválida");
